@@ -10,7 +10,7 @@ def send_question_to_api(question):
         messages=[
             {"role": "system", "content": "You are a helpful Malawi Technical Guidelines for \
              Integrated Disease Surveilance and Response (IDSR) assistant."},
-            {"role": "user", "content": "Tell me what is {question}?"}
+            {"role": "user", "content": f"Tell me what is {question}?"}
         ]
 
     )
