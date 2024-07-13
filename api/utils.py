@@ -1,6 +1,5 @@
 from openai import OpenAI
 from django.conf import settings
-
 client = OpenAI(api_key=settings.OPENAI_KEY)
 # openai.api_key = 
 
